@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# matematica-discreta
-In this repository have theory about topic
-=======
 # Final de Equivalencia - Matematica Discreta (UNSAM)
 
 ## Estructura del Final
@@ -25,4 +21,3 @@ El examen evalua **5 subtemas aislados**. Se puede llevar **1 hoja de teoria por
 2. Practicar los ejercicios marcados como prioritarios
 3. Resolver al menos 2 finales anteriores completos
 4. Preparar las 5 hojas impresas con la teoria condensada
->>>>>>> b687400 (feat: create cheat sheet to final)
