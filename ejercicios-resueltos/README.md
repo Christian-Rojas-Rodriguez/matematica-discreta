@@ -151,41 +151,41 @@
 ## Cola de Prioridad — TIER 3: FINALES
 
 ### Batch 22 — Finales Tema 2 Equivalencia
-- [ ] F01-Ej6: xSy <=> x^2-5x=y^2-5y en R (clases, cociente)
-- [ ] F03-Ej7: (x,y)R(z,t) <=> |x|=|z| ^ 2|(y+t) en R^2 (clases)
-- [ ] F04-Ej2: V o F: P1 cap P2 = vacio si son particiones
-- [ ] F04-Ej4: Identificar equivalencia por grafica en R
-- [ ] F05-Ej4: Analizar S,R,T (amigo, ingreso antes, mismo anio)
+- [x] F01-Ej6: xSy <=> x^2-5x=y^2-5y en R (clases: {a,5-a})
+- [x] F03-Ej7: (x,y)R(z,t) <=> |x|=|z| ^ 2|(y+t) en R^2 (clases por |x| y paridad)
+- [x] F04-Ej2: V o F: P1 cap P2 = vacio si son particiones → FALSO
+- [x] F04-Ej4: Identificar equivalencia por grafica en R → grafica derecha (lineas paralelas)
+- [x] F05-Ej4: Analizar S,R,T → solo T (mismo anio) es equivalencia
 
 ### Batch 23 — Finales Tema 2 + Tema 3
-- [ ] F06-Ej2: x+y=8 en {1..8}, propiedades
-- [ ] F01-Ej8: (A={2,4,6,8,10,24,30,120}; |) cotas, red, Boole
-- [ ] F02-Ej6: Orden en |A|=6, Hasse con 5 aristas
-- [ ] F02-Ej8: Cual es isomorfo a P({a,b,c})? D3703, D210, D289, D2717
-- [ ] F03-Ej8: Red algebraica con tabla v, Hasse, Boole?
+- [x] F06-Ej2: x+y=8 en {1..8} → simetrica SI, reflexiva NO, transitiva NO
+- [x] F01-Ej8: (A={2,4,6,8,10,24,30,120}; |) → NO es red ({4,6} sin sup en A)
+- [x] F02-Ej6: Orden en |A|=6, Hasse con 5 aristas → d) 11 pares (estrella)
+- [x] F02-Ej8: Isomorfo a P({a,b,c}) → d) D2717 = 11*13*19
+- [x] F03-Ej8: Red algebraica con tabla v → analizar complementos para Boole
 
 ### Batch 24 — Finales Tema 3 + Tema 5
-- [ ] F04-Ej5: Hasse dado, cotas sup/inf de B={c,g}
-- [ ] F05-Ej5: (D40; |): distributiva, complementada, Boole
-- [ ] F06-Ej4: (D40; |): totalmente ordenado, Boole, isomorfo D30
-- [ ] F01-Ej9: a_n=3a_{n-1}-2a_{n-2}, a0=1, a1=0
-- [ ] F02-Ej9: a_{n+2}-4a_{n+1}-5a_n=10*4^n, a0=1, a1=7
+- [x] F04-Ej5: Hasse dado, cotas de B={c,g} → Sup={h}, Inf={a}
+- [x] F05-Ej5: (D40; |) → a) red distributiva pero NO complementada
+- [x] F06-Ej4: (D40; |) → d) red distributiva pero no complementada
+- [x] F01-Ej9: a_n=3a_{n-1}-2a_{n-2}, a0=1, a1=0 → a_n = 2 - 2^n
+- [x] F02-Ej9: a_{n+2}-4a_{n+1}-5a_n=10*4^n → a_n = 3*5^n - 2*4^n
 
 ### Batch 25 — Finales Tema 5 + Tema 4
-- [ ] F03-Ej9: Problema inverso: recurrencia orden 1 con a_n=3*5^n
-- [ ] F04-Ej6: Recurrencia no homogenea con a_n=4*2^n
-- [ ] F05-Ej6: a_n=k*5^n+4, de que tipo?
-- [ ] F06-Ej10: a_{n+1}-4a_n=-6*2^n, a_n=3*2^n es solucion?
-- [ ] F01-Ej7: 4731x = 589 (76513) cantidad de soluciones
+- [x] F03-Ej9: Problema inverso orden 1 con a_n=3*5^n → a_n - a_{n-1} = 12*5^(n-1)
+- [x] F04-Ej6: Particular a_n=4*2^n → a_n - a_{n-1} = 2^(n+1)
+- [x] F05-Ej6: a_n=k*5^n+4 → b) orden 1 no homogenea
+- [x] F06-Ej10: a_n=3*2^n → a) es solucion PARTICULAR
+- [x] F01-Ej7: 4731x = 589 (76513) → mcd=19, 19 soluciones principales
 
 ### Batch 26 — Finales Tema 4 + Tema 1
-- [ ] F02-Ej7: Resto m / 15 = 8, deducir propiedades
-- [ ] F03-Ej4: Resto de (b-2c-18) / 10
-- [ ] F04-Ej3: mcd(5n+3, 2n+1)=3
-- [ ] F06-Ej7: 72x = 54 (126) soluciones principales
-- [ ] F06-Ej8: 3=as+bt, que se asegura de mcd(a,b)?
+- [x] F02-Ej7: Resto m/15=8 → a) 6|(2m-4) ✓
+- [x] F03-Ej4: Resto de (b-2c-18)/10 → resto = 3
+- [x] F04-Ej3: mcd(5n+3, 2n+1)=3 → IMPOSIBLE, mcd siempre es 1
+- [x] F06-Ej7: 72x = 54 (126) → c) 18 soluciones principales
+- [x] F06-Ej8: 3=as+bt → d) n.a. (solo se sabe mcd(a,b)|3)
 
 ### Batch 27 — Finales Tema 1
-- [ ] F02-Ej1: "Si estudio, apruebo..." categorico? valido?
-- [ ] F04-Ej1: Ex[r(x) v t(x)]; Ex:~t(x) .: Ex:r(x)
-- [ ] F06-Ej1: Simbolizar p y q con opciones 1-4
+- [x] F02-Ej1: "Si estudio, apruebo..." → d) NO categorico e INVALIDO
+- [x] F04-Ej1: Ex[r(x) v t(x)]; Ex:~t(x) .: Ex:r(x) → INVALIDO (contraejemplo)
+- [x] F06-Ej1: Simbolizar p y q → p: opcion 1 (Ax →), q: opcion 4 (Ex ^)
